@@ -57,11 +57,11 @@ Useful for us:
 --name   // to know what you are doing 
 
 
-# First training run: 3 epochs
+## First training run: 3 epochs
 python train.py --cfg ./models/yolov5s.yaml --data ./data/smile.yaml --epochs 3 --batch-size 8 --device 1 --workers 2 --name SMILE
 
 
-# First training run: 10 epochs
+## First training run: 10 epochs
 python train.py --cfg ./models/yolov5s.yaml --data ./data/smile.yaml --epochs 10 --batch-size 8 --device 1 --workers 2 --name SMILE
 
 
